@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB9379A1BB2E74400C83B19 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB937991BB2E74400C83B19 /* Argo.framework */; };
+		7DB9379C1BB2E78D00C83B19 /* ServerContactFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9379B1BB2E78D00C83B19 /* ServerContactFull.swift */; settings = {ASSET_TAGS = (); }; };
+		7DC6B48D1BB1F9A000A0836B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6B48C1BB1F9A000A0836B /* AppDelegate.swift */; };
+		7DC6B48F1BB1F9A000A0836B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6B48E1BB1F9A000A0836B /* ViewController.swift */; };
+		7DC6B4921BB1F9A000A0836B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6B4901BB1F9A000A0836B /* Main.storyboard */; };
+		7DC6B4941BB1F9A000A0836B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6B4931BB1F9A000A0836B /* Assets.xcassets */; };
+		7DC6B4971BB1F9A000A0836B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6B4951BB1F9A000A0836B /* LaunchScreen.storyboard */; };
+		7DC6B4A21BB1F9A000A0836B /* ArgoCompilationErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6B4A11BB1F9A000A0836B /* ArgoCompilationErrorTests.swift */; };
+		7DC6B4AD1BB1F9A000A0836B /* ArgoCompilationErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6B4AC1BB1F9A000A0836B /* ArgoCompilationErrorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DC6B49E1BB1F9A000A0836B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DC6B4811BB1F9A000A0836B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DC6B4881BB1F9A000A0836B;
+			remoteInfo = ArgoCompilationError;
+		};
+		7DC6B4A91BB1F9A000A0836B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DC6B4811BB1F9A000A0836B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DC6B4881BB1F9A000A0836B;
+			remoteInfo = ArgoCompilationError;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DB937991BB2E74400C83B19 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		7DB9379B1BB2E78D00C83B19 /* ServerContactFull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerContactFull.swift; sourceTree = "<group>"; };
+		7DC6B4891BB1F9A000A0836B /* ArgoCompilationError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgoCompilationError.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC6B48C1BB1F9A000A0836B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DC6B48E1BB1F9A000A0836B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DC6B4911BB1F9A000A0836B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DC6B4931BB1F9A000A0836B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DC6B4961BB1F9A000A0836B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DC6B4981BB1F9A000A0836B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC6B49D1BB1F9A000A0836B /* ArgoCompilationErrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgoCompilationErrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC6B4A11BB1F9A000A0836B /* ArgoCompilationErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgoCompilationErrorTests.swift; sourceTree = "<group>"; };
+		7DC6B4A31BB1F9A000A0836B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC6B4A81BB1F9A000A0836B /* ArgoCompilationErrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgoCompilationErrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC6B4AC1BB1F9A000A0836B /* ArgoCompilationErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgoCompilationErrorUITests.swift; sourceTree = "<group>"; };
+		7DC6B4AE1BB1F9A000A0836B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DC6B4861BB1F9A000A0836B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB9379A1BB2E74400C83B19 /* Argo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6B49A1BB1F9A000A0836B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6B4A51BB1F9A000A0836B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DC6B4801BB1F9A000A0836B = {
+			isa = PBXGroup;
+			children = (
+				7DB937991BB2E74400C83B19 /* Argo.framework */,
+				7DC6B48B1BB1F9A000A0836B /* ArgoCompilationError */,
+				7DC6B4A01BB1F9A000A0836B /* ArgoCompilationErrorTests */,
+				7DC6B4AB1BB1F9A000A0836B /* ArgoCompilationErrorUITests */,
+				7DC6B48A1BB1F9A000A0836B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC6B48A1BB1F9A000A0836B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6B4891BB1F9A000A0836B /* ArgoCompilationError.app */,
+				7DC6B49D1BB1F9A000A0836B /* ArgoCompilationErrorTests.xctest */,
+				7DC6B4A81BB1F9A000A0836B /* ArgoCompilationErrorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DC6B48B1BB1F9A000A0836B /* ArgoCompilationError */ = {
+			isa = PBXGroup;
+			children = (
+				7DB9379B1BB2E78D00C83B19 /* ServerContactFull.swift */,
+				7DC6B48C1BB1F9A000A0836B /* AppDelegate.swift */,
+				7DC6B48E1BB1F9A000A0836B /* ViewController.swift */,
+				7DC6B4901BB1F9A000A0836B /* Main.storyboard */,
+				7DC6B4931BB1F9A000A0836B /* Assets.xcassets */,
+				7DC6B4951BB1F9A000A0836B /* LaunchScreen.storyboard */,
+				7DC6B4981BB1F9A000A0836B /* Info.plist */,
+			);
+			path = ArgoCompilationError;
+			sourceTree = "<group>";
+		};
+		7DC6B4A01BB1F9A000A0836B /* ArgoCompilationErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6B4A11BB1F9A000A0836B /* ArgoCompilationErrorTests.swift */,
+				7DC6B4A31BB1F9A000A0836B /* Info.plist */,
+			);
+			path = ArgoCompilationErrorTests;
+			sourceTree = "<group>";
+		};
+		7DC6B4AB1BB1F9A000A0836B /* ArgoCompilationErrorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6B4AC1BB1F9A000A0836B /* ArgoCompilationErrorUITests.swift */,
+				7DC6B4AE1BB1F9A000A0836B /* Info.plist */,
+			);
+			path = ArgoCompilationErrorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DC6B4881BB1F9A000A0836B /* ArgoCompilationError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC6B4B11BB1F9A000A0836B /* Build configuration list for PBXNativeTarget "ArgoCompilationError" */;
+			buildPhases = (
+				7DC6B4851BB1F9A000A0836B /* Sources */,
+				7DC6B4861BB1F9A000A0836B /* Frameworks */,
+				7DC6B4871BB1F9A000A0836B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArgoCompilationError;
+			productName = ArgoCompilationError;
+			productReference = 7DC6B4891BB1F9A000A0836B /* ArgoCompilationError.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DC6B49C1BB1F9A000A0836B /* ArgoCompilationErrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC6B4B41BB1F9A000A0836B /* Build configuration list for PBXNativeTarget "ArgoCompilationErrorTests" */;
+			buildPhases = (
+				7DC6B4991BB1F9A000A0836B /* Sources */,
+				7DC6B49A1BB1F9A000A0836B /* Frameworks */,
+				7DC6B49B1BB1F9A000A0836B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DC6B49F1BB1F9A000A0836B /* PBXTargetDependency */,
+			);
+			name = ArgoCompilationErrorTests;
+			productName = ArgoCompilationErrorTests;
+			productReference = 7DC6B49D1BB1F9A000A0836B /* ArgoCompilationErrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DC6B4A71BB1F9A000A0836B /* ArgoCompilationErrorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC6B4B71BB1F9A000A0836B /* Build configuration list for PBXNativeTarget "ArgoCompilationErrorUITests" */;
+			buildPhases = (
+				7DC6B4A41BB1F9A000A0836B /* Sources */,
+				7DC6B4A51BB1F9A000A0836B /* Frameworks */,
+				7DC6B4A61BB1F9A000A0836B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DC6B4AA1BB1F9A000A0836B /* PBXTargetDependency */,
+			);
+			name = ArgoCompilationErrorUITests;
+			productName = ArgoCompilationErrorUITests;
+			productReference = 7DC6B4A81BB1F9A000A0836B /* ArgoCompilationErrorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DC6B4811BB1F9A000A0836B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = nomothetis;
+				TargetAttributes = {
+					7DC6B4881BB1F9A000A0836B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7DC6B49C1BB1F9A000A0836B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7DC6B4881BB1F9A000A0836B;
+					};
+					7DC6B4A71BB1F9A000A0836B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7DC6B4881BB1F9A000A0836B;
+					};
+				};
+			};
+			buildConfigurationList = 7DC6B4841BB1F9A000A0836B /* Build configuration list for PBXProject "ArgoCompilationError" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DC6B4801BB1F9A000A0836B;
+			productRefGroup = 7DC6B48A1BB1F9A000A0836B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DC6B4881BB1F9A000A0836B /* ArgoCompilationError */,
+				7DC6B49C1BB1F9A000A0836B /* ArgoCompilationErrorTests */,
+				7DC6B4A71BB1F9A000A0836B /* ArgoCompilationErrorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DC6B4871BB1F9A000A0836B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC6B4971BB1F9A000A0836B /* LaunchScreen.storyboard in Resources */,
+				7DC6B4941BB1F9A000A0836B /* Assets.xcassets in Resources */,
+				7DC6B4921BB1F9A000A0836B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6B49B1BB1F9A000A0836B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6B4A61BB1F9A000A0836B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DC6B4851BB1F9A000A0836B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC6B48F1BB1F9A000A0836B /* ViewController.swift in Sources */,
+				7DB9379C1BB2E78D00C83B19 /* ServerContactFull.swift in Sources */,
+				7DC6B48D1BB1F9A000A0836B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6B4991BB1F9A000A0836B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC6B4A21BB1F9A000A0836B /* ArgoCompilationErrorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6B4A41BB1F9A000A0836B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC6B4AD1BB1F9A000A0836B /* ArgoCompilationErrorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DC6B49F1BB1F9A000A0836B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DC6B4881BB1F9A000A0836B /* ArgoCompilationError */;
+			targetProxy = 7DC6B49E1BB1F9A000A0836B /* PBXContainerItemProxy */;
+		};
+		7DC6B4AA1BB1F9A000A0836B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DC6B4881BB1F9A000A0836B /* ArgoCompilationError */;
+			targetProxy = 7DC6B4A91BB1F9A000A0836B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DC6B4901BB1F9A000A0836B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC6B4911BB1F9A000A0836B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DC6B4951BB1F9A000A0836B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC6B4961BB1F9A000A0836B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DC6B4AF1BB1F9A000A0836B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DC6B4B01BB1F9A000A0836B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DC6B4B21BB1F9A000A0836B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ArgoCompilationError/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomothetis.ArgoCompilationError;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DC6B4B31BB1F9A000A0836B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ArgoCompilationError/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomothetis.ArgoCompilationError;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DC6B4B51BB1F9A000A0836B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArgoCompilationErrorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomothetis.ArgoCompilationErrorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgoCompilationError.app/ArgoCompilationError";
+			};
+			name = Debug;
+		};
+		7DC6B4B61BB1F9A000A0836B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArgoCompilationErrorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomothetis.ArgoCompilationErrorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgoCompilationError.app/ArgoCompilationError";
+			};
+			name = Release;
+		};
+		7DC6B4B81BB1F9A000A0836B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArgoCompilationErrorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomothetis.ArgoCompilationErrorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArgoCompilationError;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7DC6B4B91BB1F9A000A0836B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArgoCompilationErrorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomothetis.ArgoCompilationErrorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArgoCompilationError;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DC6B4841BB1F9A000A0836B /* Build configuration list for PBXProject "ArgoCompilationError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC6B4AF1BB1F9A000A0836B /* Debug */,
+				7DC6B4B01BB1F9A000A0836B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC6B4B11BB1F9A000A0836B /* Build configuration list for PBXNativeTarget "ArgoCompilationError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC6B4B21BB1F9A000A0836B /* Debug */,
+				7DC6B4B31BB1F9A000A0836B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC6B4B41BB1F9A000A0836B /* Build configuration list for PBXNativeTarget "ArgoCompilationErrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC6B4B51BB1F9A000A0836B /* Debug */,
+				7DC6B4B61BB1F9A000A0836B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC6B4B71BB1F9A000A0836B /* Build configuration list for PBXNativeTarget "ArgoCompilationErrorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC6B4B81BB1F9A000A0836B /* Debug */,
+				7DC6B4B91BB1F9A000A0836B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DC6B4811BB1F9A000A0836B /* Project object */;
+}

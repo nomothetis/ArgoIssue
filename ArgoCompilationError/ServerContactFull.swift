@@ -80,7 +80,7 @@ public struct ServerContactFull:Decodable {
             <*> j <|? "lastEmail"
             <*> j <|? "textCount"
         
-        let thirdPart = firstPart
+        let thirdPart = secondPart
             <*> j <|? "lastTextDate"
             <*> j <|? "registerDate"
             <*> j <|? "bestPhone"
